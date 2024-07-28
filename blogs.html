@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tarun's Portfolio</title>
     <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/scripts.js"></script>
 </head>
 
 <body>
@@ -19,8 +20,17 @@
             <a href="blogs.html">Blogs</a>
             <a href="contact.html">Contact</a>
         </nav>
+        <span style="font-size:30px;cursor:pointer" class="menu" onclick="openNav()">&#9776;</span>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html" class="active">Home</a>
+            <a href="about.html">About</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="blogs.html">Blogs</a>
+            <a href="contact.html">Contact</a>
+          </div>
     </header>
-    <main class="about-me">
+    <main class="about-me" id="main">
         <section class="container active" id="blogs">
             <div class="blogs-content">
                 <div class="main-title">

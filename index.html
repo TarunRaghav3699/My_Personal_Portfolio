@@ -6,10 +6,12 @@
     <link rel="stylesheet" href="css/style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Tarun's Portfolio</title>
+    <script src="./js/scripts.js"></script>
 </head>
 <body>
     <header class="header">
         <a href="#" class="logo">Portfolio.</a>
+
         <nav class="navbar">
             <a href="index.html" class="active">Home</a>
             <a href="about.html">About</a>
@@ -17,9 +19,18 @@
             <a href="blogs.html">Blogs</a>
             <a href="contact.html">Contact</a>
         </nav>
+        <span style="font-size:30px;cursor:pointer" class="menu" onclick="openNav()">&#9776;</span>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html" class="active">Home</a>
+            <a href="about.html">About</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="blogs.html">Blogs</a>
+            <a href="contact.html">Contact</a>
+          </div>
     </header>
 
-    <section class="home">
+    <section class="home" id="main">
         <div class="home-content">
             <h3>Hello, It's Me</h3>
             <h1>Tarun Raghav</h1>
