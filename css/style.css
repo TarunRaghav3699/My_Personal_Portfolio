@@ -770,9 +770,9 @@ body {
 /* MEDIA QUERY */
 
 @media screen and (max-width: 600px) {
-  header {
+ /* header {
     padding: 0 !important;
-  }
+  }*/
 
   .theme-btn {
     width: 50px;
@@ -814,7 +814,7 @@ body {
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
-    background-color: var(--color-grey-5);
+    background-color: #0ef6;
   }
 
   .controls .control {
@@ -891,7 +891,7 @@ body {
 
   .contact-item p {
     font-size: 15px;
-    color: var(--color-grey-2);
+    color: #0ef;
   }
 
   .contact-item span {
